@@ -1015,10 +1015,9 @@ table.table_grid thead tr.catbg th
 ----------------------------------------------------------- */
 .roundframe
 {
-   padding: 0 10px;
+   padding: 10px;
    background: #f5f5f5;
-   border-left: 1px solid #c5c5c5;
-   border-right: 1px solid #c5c5c5;
+   border: 1px solid #c5c5c5;
 }
 .roundframe dl, .roundframe dt, .roundframe p
 {
@@ -1032,29 +1031,22 @@ span.upperframe
 {
    padding: 0;
    display: block;
-   background: url(../images/theme/main_block.png) 0 -90px no-repeat;
-   padding-left: 20px;
 }
 span.upperframe span
 {
    padding: 0;
    height: 12px;
    display: block;
-   background: url(../images/theme/main_block.png) 100% -90px no-repeat;
 }
 span.lowerframe
 {
    padding: 0;
-   display: block;
-   background: url(../images/theme/main_block.png) 0 -102px no-repeat;
-   padding-left: 20px;
+   display: none;
 }
 span.lowerframe span
 {
    padding: 0;
-   height: 12px;
-   display: block;
-   background: url(../images/theme/main_block.png) 100% -102px no-repeat;
+   display: none;
 }
 
 /* The main content area.
