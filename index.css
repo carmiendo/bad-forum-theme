@@ -1915,8 +1915,9 @@ div#pollmoderation
 }
 p#whoisviewing
 {
-   margin: 0;
+   margin: 0 0 1px 0;
    padding: 0.5em;
+   background-color: red;
 }
 /* poster and postarea + moderation area underneath */
 .post_wrapper
