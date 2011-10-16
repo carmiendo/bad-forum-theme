@@ -1406,6 +1406,7 @@ img#upshrink
 {
    float: right;
    margin: 1em;
+   display: none;
 }
 /* ..so does the SMF logo */
 img#smflogo
@@ -1415,8 +1416,9 @@ img#smflogo
 /* the upper_section, float the two each way */
 #upper_section
 {
-   padding: 5px;
-   margin-bottom: 1.5em;
+   margin-bottom: 1em;
+   margin-top: 50px;
+   display: block !important;
 }
 #upper_section ul li.greeting
 {
@@ -1426,9 +1428,10 @@ img#smflogo
 }
 #upper_section div.news
 {
-   width: 50%;
+   width: 100%;
    float: right;
    text-align: right;
+   padding-top: 1em;
 }
 #guest_form
 {
@@ -1441,14 +1444,13 @@ img#smflogo
 }
 div#upper_section div.user
 {
-   width: 50%;
-   float: left;
    overflow: auto;
+   text-align: right;
 }
 div#upper_section div.user p
 {
-   float: left;
-   margin: 0 1em 1em 0;
+   float: right;
+   margin: 0 0 0 1em;
    padding: 0;
 }
 div#upper_section div.user ul
@@ -1466,7 +1468,6 @@ div#upper_section div.news p
 }
 div#upper_section div.news form
 {
-   padding-bottom: 10px;
 }
 /* clearing the floats */
 #top_section
@@ -1475,10 +1476,14 @@ div#upper_section div.news form
    min-height: 65px;
    overflow: hidden;
    margin-bottom: 3px;
+   width: 510px;
+   float: left;
 }
 #upper_section
 {
    overflow: hidden;
+   width: 350px;
+   float: right;
 }
 
 /* The navigation list (i.e. linktree) */
