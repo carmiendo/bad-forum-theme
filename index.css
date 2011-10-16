@@ -33,10 +33,15 @@ table
 /* Set a fontsize that will look the same in all browsers. */
 body
 {
-   background: #E9EEF2 url(../images/theme/backdrop.png) repeat-x;
+   background-color: #626262;
+   background-image: url('http://www.bayareaderbygirls.com/wp-content/uploads/2011/07/bad_web_background.png');
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-attachment: fixed;   
+
+   /* background: #E9EEF2 url(../images/theme/backdrop.png) repeat-x; */
    font: 78%/130% "Verdana", "Arial", "Helvetica", sans-serif;
    margin: 0 auto;
-   padding: 15px 0;
 }
 
 /* Help popups require a different styling of the body element. */
@@ -752,7 +757,7 @@ h3.catbg, h3.catbg2, h3.titlebg, h4.titlebg, h4.catbg
 }
 h3.catbg a:link, h3.catbg a:visited, h4.catbg a:link, h4.catbg a:visited, h3.catbg, .table_list tbody.header td, .table_list tbody.header td a
 {
-   color: #fff;
+   color: black;
 }
 h3.catbg2 a, h3.catbg2
 {
@@ -789,7 +794,7 @@ h4.catbg a.toggle img
 }
 h4.catbg, h4.catbg2 , h3.catbg , h3.catbg2 , .table_list tbody.header td.catbg
 {
-   background: url(../images/theme/main_block.png) no-repeat 100% -160px;
+   background: #EBCA3D url("http://www.bayareaderbygirls.com/wp-content/themes/badtheme/images/menubar-bg.png") repeat-x;
    padding-right: 9px;
 }
 h4.titlebg, h3.titlebg
@@ -804,7 +809,7 @@ h4.titlebg img.icon
 }
 div.cat_bar
 {
-   background: #99abbf url(../images/theme/main_block.png) no-repeat 0 -160px;
+   background: #EBCA3D url("http://www.bayareaderbygirls.com/wp-content/themes/badtheme/images/menubar-bg.png") repeat-x;
    padding-left: 9px;
    height: 31px;
    overflow: hidden;
@@ -819,7 +824,7 @@ div.title_bar
    margin-bottom: 1px;
 }
 
-/* rounded bars needs a different background here */
+/* rounded bars needs a different background here 
 
 div.roundframe div.cat_bar
 {
@@ -830,6 +835,8 @@ div.roundframe div.cat_bar h3.catbg
 {
    background: url(../images/theme/main_block.png) no-repeat 100% -240px;
 }
+*/
+
 div.title_barIC
 {
    background: #dadfe6 url(../images/theme/main_block.png) no-repeat 0 -120px;
@@ -1142,7 +1149,13 @@ span.lowerframe span
    height: 22px;
    line-height: 19px;
    white-space: pre;
+
+   /* XXX: to make the main menu items bigger
+   font-size: 1.2em;
+   font-weight: bold;
+   */
 }
+
 .dropmenu li
 {
    float: left;
@@ -1150,6 +1163,7 @@ span.lowerframe span
    margin: 0;
    position: relative;
 }
+
 .dropmenu li ul
 {
    z-index: 90;
@@ -1333,24 +1347,24 @@ ul#navigation li
 /* the framing graphics */
 #header
 {
-   background: url(../images/theme/main_block.png) #fefefe no-repeat 0 -480px;
+   background: white;
    padding-left: 20px;
 }
 #header div.frame
 {
-   background: url(../images/theme/main_block.png) no-repeat 100% -480px;
+   background: white;
    display: block;
-   padding: 5px 20px 1em 0;
+   padding: 0 20px 1em 0;
 }
 /* the content section */
 #content_section
 {
-   background: #FFFFFF url(../images/theme/frame_repeat.png) repeat-y top left;
+   background: white;
    padding-left: 20px;
 }
 #content_section div.frame
 {
-   background: url(../images/theme/frame_repeat.png) repeat-y top right;
+   background: white;
    display: block;
    padding: 0 20px 0 0;
 }
@@ -1370,6 +1384,12 @@ h1.forumtitle
    padding: 0;
    float: left;
 }
+
+h1.forumtitle > a > img
+{
+   margin: -1px;
+}
+
 /* float these items to the right */
 #siteslogan, img#smflogo
 {
@@ -1452,6 +1472,7 @@ div#upper_section div.news form
 /* clearing the floats */
 #top_section
 {
+   background: white 156px 23px no-repeat url("http://www.bayareaderbygirls.com/wp-content/themes/badtheme/images/badwords.png");
    min-height: 65px;
    overflow: hidden;
    margin-bottom: 3px;
@@ -1494,7 +1515,7 @@ div#upper_section div.news form
 #footer_section
 {
    text-align: center;
-   background: url(../images/theme/main_block.png) no-repeat 0 -820px;
+   background: white;
    padding-left: 20px;
 }
 #footer_section span.smalltext
@@ -1503,7 +1524,7 @@ div#upper_section div.news form
 }
 #footer_section div.frame
 {
-   background: url(../images/theme/main_block.png) no-repeat 100% -820px;
+   background: white;
    display: block;
    padding: 60px 0 0 0;
 }
