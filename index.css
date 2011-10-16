@@ -882,11 +882,11 @@ table.table_list a.collapse
 }
 tr.catbg th.first_th
 {
-   background:#EBCA3D url("http://www.bayareaderbygirls.com/wp-content/themes/badtheme/images/menubar-bg.png") repeat-x
+   background: #EBCA3D url("http://www.bayareaderbygirls.com/wp-content/themes/badtheme/images/menubar-bg.png") repeat-x
 }
 tr.catbg th.last_th
 {
-   background: #a7b9cd url(../images/theme/main_block.png) no-repeat 100% -280px;
+   background: #EBCA3D url("http://www.bayareaderbygirls.com/wp-content/themes/badtheme/images/menubar-bg.png") repeat-x
 }
 tr.titlebg th.first_th
 {
