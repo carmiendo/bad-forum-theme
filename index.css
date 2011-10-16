@@ -60,8 +60,7 @@ body, td, th, tr
 div#wrapper
 {
    margin: 0 auto;
-   min-width: 764px;
-   max-width: 2300px;
+   max-width: 960px;
 }
 
 /* lets give all forms zero padding/margins */
