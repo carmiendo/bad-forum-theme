@@ -438,11 +438,11 @@ code.bbc_code
 }
 .catbg, .catbg2, tr.catbg td, tr.catbg2 td, tr.catbg th, tr.catbg2 th
 {
-   color: #fff;
+   color: black;
    font-family: arial, helvetica, sans-serif;
    font-size: 1.1em;
    font-weight: bold;
-   background: #a7b9cd url(../images/theme/main_block.png) no-repeat -10px -280px;
+   background: #EBCA3D url("http://www.bayareaderbygirls.com/wp-content/themes/badtheme/images/menubar-bg.png") repeat-x
 }
 
 /* adjust the table versions of headers */
@@ -456,7 +456,7 @@ tr.titlebg th a:link, tr.titlebg th a:visited, tr.titlebg2 td a:link, tr.titlebg
 }
 tr.catbg th a:link, tr.catbg th a:visited, tr.catbg2 td a:link, tr.catbg2 td a:visited
 {
-   color: #fff;
+   color: black;
 }
 .catbg select
 {
@@ -882,7 +882,7 @@ table.table_list a.collapse
 }
 tr.catbg th.first_th
 {
-   background: #a7b9cd url(../images/theme/main_block.png) no-repeat 0 -280px;
+   background:#EBCA3D url("http://www.bayareaderbygirls.com/wp-content/themes/badtheme/images/menubar-bg.png") repeat-x
 }
 tr.catbg th.last_th
 {
